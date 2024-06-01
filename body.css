@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+h1 {
+    font-family:algerian;
+    color: #ff6600;
+    font-size: 3.8em;
+    
+}
+
+
+p {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color:#ffff00;
+    font-size: 1.8em;
+    padding: 20px;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #ffff00;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+.header {
+    height: 140px;
+    padding: 10px 50px;
+}
+.header-logo img {
+    height: 150px;
+}
+.photo img {
+    height: 350px;
+}
+.container {
+    display: flex;
+}
+
+.photo {
+    flex: 1;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px; 
+}
+.text h2 {
+    margin-top: 0; 
+    
+}
+
+.text2 p {
+    padding: 100px 10px 10px;
+}
+.photo2 img {
+    height: 700px;
+}
+h5 {
+    font-family:algerian;
+    color: #ff6600;
+    font-size: 3.8em;
+    
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+.product {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    
+    color: #ff6600;
+}
+
+.product p {
+    color: #666
+}
+
+product .price {
+    font-size: 1.2em;
+    color: #ff6600;
+    margin-top: 1px;
+    align-content: center;
+}
+.main {
+    align-content: revert;
+}
+.h2 {
+    color: orange;
+}
+.h5 {
+    text-decoration-color: red;
+}
